@@ -1,0 +1,82 @@
+[2026-01-26 18:51:50] info: 	z2m: Logging to console, file (filename: log.log)
+[2026-01-26 18:51:50] info: 	z2m: Starting Zigbee2MQTT version 2.7.2 (commit #3a49c95786c2fba749e7696aab4cc38e467d2c4c
+)
+[2026-01-26 18:51:50] info: 	z2m: Starting zigbee-herdsman (8.0.1)
+[2026-01-26 18:51:50] info: 	zh:adapter:discovery: Matched adapter: {"path":"/dev/ttyUSB0","manufacturer":"Silicon Labs","serialNumber":"0001","pnpId":"usb-Silicon_Labs_Sonoff_Zigbee_3.0_USB_Dongle_Plus_0001-if00-port0","vendorId":"10c4","productId":"ea60"} => zstack: 4
+[2026-01-26 18:51:50] info: 	zh:zstack:znp: Opening SerialPort with {"path":"/dev/ttyUSB0","baudRate":115200,"rtscts":false,"autoOpen":false}
+[2026-01-26 18:51:50] info: 	zh:zstack:znp: Serialport opened
+[2026-01-26 18:51:54] info: 	z2m: zigbee-herdsman started (resumed)
+[2026-01-26 18:51:54] info: 	z2m: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20210708,"transportrev":2},"type":"ZStack3x0"}'
+[2026-01-26 18:51:54] info: 	z2m: temp-outside (0xa4c13891e06e629d): TH02Z - Tuya Temperature and humidity sensor (EndDevice)
+[2026-01-26 18:51:54] info: 	z2m: temp-livingroom (0x00158d000423e554): WSDCGQ11LM - Aqara Temperature and humidity sensor (EndDevice)
+[2026-01-26 18:51:54] info: 	z2m: Currently 2 devices are joined.
+[2026-01-26 18:51:54] info: 	z2m: Connecting to MQTT server at mqtt://192.168.1.182:1883
+[2026-01-26 18:51:54] info: 	z2m: Connected to MQTT server
+[2026-01-26 18:51:54] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"online"}'
+[2026-01-26 18:51:54] info: 	z2m: Started frontend on port 8080
+[2026-01-26 18:51:54] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":87,"humidity":58.77,"linkquality":183,"temperature":21.76,"voltage":2500}'
+[2026-01-26 18:51:54] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":30.35,"linkquality":183,"pressure":1008.4,"temperature":22.15}'
+[2026-01-26 18:51:54] info: 	z2m: Zigbee2MQTT started!
+[2026-01-26 18:52:34] info: 	z2m: Zigbee: allowing new devices to join.
+[2026-01-26 18:52:34] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bridge/response/permit_join', payload '{"data":{"time":254},"status":"ok","transaction":"jpdzm-1"}'
+[2026-01-26 18:52:51] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":30.35,"linkquality":87,"pressure":1008.4,"temperature":23.68}'
+[2026-01-26 18:52:51] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":46.2,"linkquality":78,"pressure":1008.4,"temperature":23.68}'
+[2026-01-26 18:52:51] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":46.2,"linkquality":78,"pressure":1008.3,"temperature":23.68}'
+[2026-01-26 18:52:57] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":46.2,"linkquality":96,"pressure":1008.3,"temperature":24.3}'
+[2026-01-26 18:52:57] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":52.34,"linkquality":96,"pressure":1008.3,"temperature":24.3}'
+[2026-01-26 18:52:58] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":52.34,"linkquality":96,"pressure":1008.4,"temperature":24.3}'
+[2026-01-26 18:53:04] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":52.34,"linkquality":186,"pressure":1008.4,"temperature":24.94}'
+[2026-01-26 18:53:04] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":53.82,"linkquality":186,"pressure":1008.4,"temperature":24.94}'
+[2026-01-26 18:53:04] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":53.82,"linkquality":186,"pressure":1008.4,"temperature":24.94}'
+[2026-01-26 18:53:07] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":53.82,"linkquality":186,"pressure":1008.4,"temperature":25.01}'
+[2026-01-26 18:53:07] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":47.49,"linkquality":186,"pressure":1008.4,"temperature":25.01}'
+[2026-01-26 18:53:07] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":47.49,"linkquality":186,"pressure":1008.4,"temperature":25.01}'
+[2026-01-26 18:53:13] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":47.49,"linkquality":183,"pressure":1008.4,"temperature":25.3}'
+[2026-01-26 18:53:13] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":39.05,"linkquality":186,"pressure":1008.4,"temperature":25.3}'
+[2026-01-26 18:53:13] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":39.05,"linkquality":186,"pressure":1008.4,"temperature":25.3}'
+[2026-01-26 18:53:29] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":39.05,"linkquality":183,"pressure":1008.4,"temperature":25.67}'
+[2026-01-26 18:53:29] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":32.67,"linkquality":186,"pressure":1008.4,"temperature":25.67}'
+[2026-01-26 18:53:29] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":32.67,"linkquality":186,"pressure":1008.4,"temperature":25.67}'
+[2026-01-26 18:53:34] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bridge/event', payload '{"data":{"friendly_name":"temp-outside","ieee_address":"0xa4c13891e06e629d"},"type":"device_announce"}'
+[2026-01-26 18:53:40] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":58.77,"linkquality":138,"temperature":21.76,"voltage":3000}'
+[2026-01-26 18:53:45] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":58.77,"linkquality":120,"temperature":28.08,"voltage":3000}'
+[2026-01-26 18:53:45] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":65.52,"linkquality":120,"temperature":28.08,"voltage":3000}'
+[2026-01-26 18:53:50] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":65.52,"linkquality":141,"temperature":28.09,"voltage":3000}'
+[2026-01-26 18:53:50] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":65.34,"linkquality":144,"temperature":28.09,"voltage":3000}'
+[2026-01-26 18:53:55] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":65.34,"linkquality":129,"temperature":28.13,"voltage":3000}'
+[2026-01-26 18:53:55] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":64.88,"linkquality":144,"temperature":28.13,"voltage":3000}'
+[2026-01-26 18:54:00] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":64.88,"linkquality":159,"temperature":28.15,"voltage":3000}'
+[2026-01-26 18:54:00] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":64.5,"linkquality":165,"temperature":28.15,"voltage":3000}'
+[2026-01-26 18:54:05] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":64.5,"linkquality":150,"temperature":28.18,"voltage":3000}'
+[2026-01-26 18:54:05] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":63.94,"linkquality":162,"temperature":28.18,"voltage":3000}'
+[2026-01-26 18:54:10] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":63.94,"linkquality":159,"temperature":28.18,"voltage":3000}'
+[2026-01-26 18:54:10] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":63.34,"linkquality":156,"temperature":28.18,"voltage":3000}'
+[2026-01-26 18:54:15] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":63.34,"linkquality":168,"temperature":28.15,"voltage":3000}'
+[2026-01-26 18:54:15] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":62.28,"linkquality":168,"temperature":28.15,"voltage":3000}'
+[2026-01-26 18:54:20] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":62.28,"linkquality":171,"temperature":28.11,"voltage":3000}'
+[2026-01-26 18:54:20] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":61.71,"linkquality":168,"temperature":28.11,"voltage":3000}'
+[2026-01-26 18:54:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":61.71,"linkquality":168,"temperature":28.08,"voltage":3000}'
+[2026-01-26 18:54:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":61.28,"linkquality":177,"temperature":28.08,"voltage":3000}'
+[2026-01-26 18:54:30] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":61.28,"linkquality":168,"temperature":28.02,"voltage":3000}'
+[2026-01-26 18:54:30] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":60.93,"linkquality":165,"temperature":28.02,"voltage":3000}'
+[2026-01-26 18:54:35] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":60.93,"linkquality":174,"temperature":27.98,"voltage":3000}'
+[2026-01-26 18:54:35] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":60.61,"linkquality":177,"temperature":27.98,"voltage":3000}'
+[2026-01-26 18:54:40] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":60.61,"linkquality":165,"temperature":27.94,"voltage":3000}'
+[2026-01-26 18:54:40] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":60.32,"linkquality":168,"temperature":27.94,"voltage":3000}'
+[2026-01-26 18:54:48] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":32.67,"linkquality":183,"pressure":1008.4,"temperature":25.13}'
+[2026-01-26 18:54:48] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":29.23,"linkquality":183,"pressure":1008.4,"temperature":25.13}'
+[2026-01-26 18:54:48] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":29.23,"linkquality":183,"pressure":1008.3,"temperature":25.13}'
+[2026-01-26 18:55:40] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":60.32,"linkquality":174,"temperature":27.07,"voltage":3000}'
+[2026-01-26 18:55:55] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":29.23,"linkquality":201,"pressure":1008.3,"temperature":24.58}'
+[2026-01-26 18:55:55] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":30.38,"linkquality":198,"pressure":1008.3,"temperature":24.58}'
+[2026-01-26 18:55:55] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":30.38,"linkquality":198,"pressure":1008.3,"temperature":24.58}'
+[2026-01-26 18:56:40] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":60.32,"linkquality":177,"temperature":26.27,"voltage":3000}'
+[2026-01-26 18:57:38] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":30.38,"linkquality":195,"pressure":1008.3,"temperature":24.07}'
+[2026-01-26 18:57:38] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":30.02,"linkquality":195,"pressure":1008.3,"temperature":24.07}'
+[2026-01-26 18:57:38] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"humidity":30.02,"linkquality":195,"pressure":1008.3,"temperature":24.07}'
+[2026-01-26 18:57:40] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":100,"humidity":60.32,"linkquality":168,"temperature":25.72,"voltage":3000}'
+[2026-01-26 18:58:00] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"offline"}'
+[2026-01-26 18:58:00] info: 	z2m: Disconnecting from MQTT server
+[2026-01-26 18:58:00] info: 	z2m: Stopping zigbee-herdsman...
+[2026-01-26 18:58:07] info: 	zh:controller: Wrote coordinator backup to '/app/data/coordinator_backup.json'
+[2026-01-26 18:58:07] info: 	zh:zstack:znp: closing

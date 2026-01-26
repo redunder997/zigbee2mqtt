@@ -1,13 +1,216 @@
 {
+    "1": {
+        "state": "ON"
+    },
     "0xa4c13891e06e629d": {
         "voltage": 2500,
         "battery": 87,
-        "temperature": 20.36,
-        "humidity": 78.1
+        "temperature": -2.31,
+        "humidity": 55.15,
+        "linkquality": 51
     },
     "0x00158d000423e554": {
-        "temperature": 21.61,
-        "humidity": 33.76,
-        "pressure": 1008.4
+        "temperature": 20.35,
+        "humidity": 33.45,
+        "pressure": 1008.1,
+        "linkquality": 54,
+        "voltage": 2985,
+        "battery": 90,
+        "power_outage_count": 25794
+    },
+    "0xbc026efffe674311": {
+        "state": "ON",
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "idle",
+            "installed_version": 587765297,
+            "latest_version": 587765297
+        },
+        "linkquality": 87
+    },
+    "0x6c5cb1fffe5fe294": {
+        "state": "ON",
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "idle",
+            "installed_version": 587765297,
+            "latest_version": 587765297
+        },
+        "linkquality": 63
+    },
+    "0xbc026efffe674ad7": {
+        "state": "ON",
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "idle",
+            "installed_version": 587765297,
+            "latest_version": 587765297
+        },
+        "linkquality": 63
+    },
+    "0x3425b4fffe130900": {
+        "state": "ON",
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "idle",
+            "installed_version": 587765297,
+            "latest_version": 587765297
+        },
+        "linkquality": 99
+    },
+    "0xa4c138a3ebec6a7d": {
+        "battery": 100,
+        "temperature": 18.7,
+        "humidity": 49,
+        "temperature_unit": "celsius",
+        "temperature_calibration": 0,
+        "humidity_calibration": 0,
+        "soil_moisture": 18,
+        "temperature_sampling": 30,
+        "soil_warning": 20,
+        "soil_calibration": 0,
+        "soil_sampling": 30,
+        "linkquality": 87
+    },
+    "0xa4c138d116d7caa6": {
+        "temperature_sampling": 30,
+        "soil_warning": 20,
+        "soil_calibration": 0,
+        "soil_sampling": 30,
+        "battery": 100,
+        "soil_moisture": 78,
+        "linkquality": 87
+    },
+    "0xa4c138ba85756561": {
+        "temperature_calibration": 0,
+        "humidity_calibration": 0,
+        "temperature_sampling": 30,
+        "soil_warning": 20,
+        "soil_calibration": 0,
+        "soil_sampling": 30,
+        "battery": 100,
+        "soil_moisture": 93,
+        "linkquality": 54
+    },
+    "0xa4c1380b02dd31d4": {
+        "temperature": 18.7,
+        "humidity": 30.96,
+        "linkquality": 15
+    },
+    "0x14b457fffefc2ef0": {
+        "state": "ON",
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "idle",
+            "installed_version": 587765297,
+            "latest_version": 587765297
+        },
+        "linkquality": 51
+    },
+    "0xbc026efffe6753d0": {
+        "state": "ON",
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "idle",
+            "installed_version": 587765297,
+            "latest_version": 587765297
+        },
+        "linkquality": 63
+    },
+    "0xa4c13851b7514a0c": {
+        "temperature": 19.1,
+        "humidity": 30,
+        "temperature_alarm": "canceled",
+        "battery": 88,
+        "linkquality": 75,
+        "temperature_unit_convert": "celsius",
+        "max_temperature": 39,
+        "min_temperature": 0,
+        "max_humidity": 60,
+        "min_humidity": 20,
+        "temperature_report_interval": 120,
+        "humidity_report_interval": 120,
+        "temperature_sensitivity": 0.6,
+        "humidity_sensitivity": 6
+    },
+    "0x3425b4fffe94e141": {
+        "state": "OFF",
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "idle",
+            "installed_version": 587765297,
+            "latest_version": 587765297
+        },
+        "linkquality": 63
+    },
+    "0xa4c1389025a19f7a": {
+        "mode": "click",
+        "state": "ON",
+        "lower": 85,
+        "delay": 3,
+        "reverse": "ON",
+        "upper": 0,
+        "battery": 100,
+        "touch": "OFF",
+        "linkquality": 57
+    },
+    "0x00158d0004089a53": {
+        "temperature": 23.49,
+        "humidity": 25.92,
+        "linkquality": 96
+    },
+    "0xa4c138628080cfdf": {
+        "humidity": 20.59,
+        "temperature": 20.63,
+        "linkquality": 66
+    },
+    "0xbc026efffec8d06f": {
+        "state": "ON",
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "idle",
+            "installed_version": 587765297,
+            "latest_version": 587765297
+        },
+        "linkquality": 63
+    },
+    "0x7c31fafffe648ea0": {
+        "state": "OFF",
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "available",
+            "installed_version": 33816580,
+            "latest_version": 33816613
+        },
+        "linkquality": 33
+    },
+    "0x3425b4fffed4e4bc": {
+        "state": "ON",
+        "power_on_behavior": "previous",
+        "update": {
+            "state": "idle",
+            "installed_version": 587765297,
+            "latest_version": 587765297
+        },
+        "linkquality": 57
+    },
+    "0x00158d00044fc85c": {
+        "temperature": 21.25,
+        "humidity": 30.35
+    },
+    "0x3c2ef5fffeef7d8a": {
+        "temperature": 6,
+        "humidity": 66,
+        "pm25": 5,
+        "voc_index": 100,
+        "update": {
+            "state": "idle",
+            "installed_version": 16777233,
+            "latest_version": 16777233
+        }
+    },
+    "0xa4c1380e632c86c9": {
+        "temperature": 5.16,
+        "humidity": 68.62
     }
 }

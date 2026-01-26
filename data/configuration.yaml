@@ -49,3 +49,50 @@ devices:
     friendly_name: temp-outside
   '0x00158d000423e554':
     friendly_name: temp-livingroom
+  '0xbc026efffe674311':
+    friendly_name: onoff-living-room-light-1
+  '0x6c5cb1fffe5fe294':
+    friendly_name: onoff-living-room-light-2
+  '0xbc026efffe674ad7':
+    friendly_name: onoff-living-room-light-3
+  '0x3425b4fffe130900':
+    friendly_name: onoff-kitchen-window
+  '0xa4c138a3ebec6a7d':
+    friendly_name: soil-humidity-sensor-2
+  '0xa4c138d116d7caa6':
+    friendly_name: soil-humidity-sensor-3
+  '0xa4c138ba85756561':
+    friendly_name: soil-humidity-sensor-1
+  '0xa4c1380b02dd31d4':
+    friendly_name: temp-bedroom
+  '0x14b457fffefc2ef0':
+    friendly_name: onoff-bedroom
+  '0xbc026efffe6753d0':
+    friendly_name: onoff-tv-room
+  '0xa4c13851b7514a0c':
+    friendly_name: temp-kitchen
+  '0x3425b4fffe94e141':
+    friendly_name: onoff-garage-ventilation-fan
+  '0xa4c1389025a19f7a':
+    friendly_name: fingerbot-garage-heater
+  '0x00158d0004089a53':
+    friendly_name: temp-boiler-room
+  '0xa4c138628080cfdf':
+    friendly_name: temp-laundry-room
+  '0xbc026efffec8d06f':
+    friendly_name: onoff-laundry-room
+  '0x7c31fafffe648ea0':
+    friendly_name: onoff-hobby-room
+  '0x3425b4fffed4e4bc':
+    friendly_name: onoff-food-storage
+  '0x00158d00044fc85c':
+    friendly_name: temp-downstair-office
+  '0x3c2ef5fffeef7d8a':
+    friendly_name: air-quality-garage
+  '0xa4c1380e632c86c9':
+    friendly_name: temp-garage
+groups:
+  '1':
+    friendly_name: onoff-living-room-light
+    off_state: last_member_state
+    filtered_attributes: []
