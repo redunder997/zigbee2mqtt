@@ -1,0 +1,14 @@
+services:
+  zigbee2mqtt:
+    container_name: zigbee2mqtt
+    image: koenkk/zigbee2mqtt:latest
+    restart: always
+    volumes:
+      - ./data:/app/data
+      - /run/udev:/run/udev:ro
+    ports:
+      - 8080:8080
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0 
+    environment:
+      - TZ=Europe/Stockholm

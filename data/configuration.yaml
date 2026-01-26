@@ -1,0 +1,51 @@
+version: 4
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://192.168.1.182:1883
+  user: redunder
+  password: VolvoV70Rockar
+serial:
+  port: /dev/ttyUSB0
+  adapter: zstack
+  baudrate: 115200
+  rtscts: false
+advanced:
+  log_level: info
+  channel: 11
+  network_key:
+    - 8
+    - 125
+    - 250
+    - 28
+    - 202
+    - 128
+    - 57
+    - 243
+    - 188
+    - 20
+    - 49
+    - 221
+    - 241
+    - 233
+    - 15
+    - 144
+  pan_id: 16576
+  ext_pan_id:
+    - 142
+    - 56
+    - 1
+    - 86
+    - 158
+    - 193
+    - 44
+    - 50
+frontend:
+  enabled: true
+  port: 8080
+homeassistant:
+  enabled: false
+devices:
+  '0xa4c13891e06e629d':
+    friendly_name: temp-outside
+  '0x00158d000423e554':
+    friendly_name: temp-livingroom
