@@ -58,11 +58,11 @@ devices:
   '0x3425b4fffe130900':
     friendly_name: onoff-kitchen-window
   '0xa4c138a3ebec6a7d':
-    friendly_name: soil-humidity-sensor-2
+    friendly_name: soil-moisture-sensor-2
   '0xa4c138d116d7caa6':
-    friendly_name: soil-humidity-sensor-3
+    friendly_name: soil-moisture-sensor-3
   '0xa4c138ba85756561':
-    friendly_name: soil-humidity-sensor-1
+    friendly_name: soil-moisture-sensor-1
   '0xa4c1380b02dd31d4':
     friendly_name: temp-bedroom
   '0x14b457fffefc2ef0':
@@ -92,7 +92,7 @@ devices:
   '0xa4c1380e632c86c9':
     friendly_name: temp-garage
 groups:
-  '1':
+  '2':
     friendly_name: onoff-living-room-light
-    off_state: last_member_state
-    filtered_attributes: []
+availability:
+  enabled: true
