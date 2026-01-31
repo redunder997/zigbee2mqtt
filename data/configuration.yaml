@@ -43,7 +43,7 @@ frontend:
   enabled: true
   port: 8080
 homeassistant:
-  enabled: false
+  enabled: true
 devices:
   '0xa4c13891e06e629d':
     friendly_name: temp-outside
@@ -91,6 +91,12 @@ devices:
     friendly_name: air-quality-garage
   '0xa4c1380e632c86c9':
     friendly_name: temp-garage
+  '0xa4c138971f2538f4':
+    friendly_name: climate_attic
+  '0x70ac08fffe9215f2':
+    friendly_name: lamp_frontdoor
+  '0x00158d000252d76e':
+    friendly_name: movment_hallway
 groups:
   '2':
     friendly_name: onoff-living-room-light

@@ -1,0 +1,114 @@
+[2026-01-31 17:30:20] info: 	z2m: Logging to console, file (filename: log.log)
+[2026-01-31 17:30:20] info: 	z2m: Starting Zigbee2MQTT version 2.7.2 (commit #3a49c95786c2fba749e7696aab4cc38e467d2c4c
+)
+[2026-01-31 17:30:20] info: 	z2m: Starting zigbee-herdsman (8.0.1)
+[2026-01-31 17:30:20] info: 	zh:adapter:discovery: Matched adapter: {"path":"/dev/ttyUSB0","manufacturer":"Silicon Labs","serialNumber":"0001","pnpId":"usb-Silicon_Labs_Sonoff_Zigbee_3.0_USB_Dongle_Plus_0001-if00-port0","vendorId":"10c4","productId":"ea60"} => zstack: 4
+[2026-01-31 17:30:20] info: 	zh:zstack:znp: Opening SerialPort with {"path":"/dev/ttyUSB0","baudRate":115200,"rtscts":false,"autoOpen":false}
+[2026-01-31 17:30:20] info: 	zh:zstack:znp: Serialport opened
+[2026-01-31 17:30:24] info: 	z2m: zigbee-herdsman started (resumed)
+[2026-01-31 17:30:24] info: 	z2m: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20210708,"transportrev":2},"type":"ZStack3x0"}'
+[2026-01-31 17:30:24] info: 	z2m: temp-outside (0xa4c13891e06e629d): TH02Z - Tuya Temperature and humidity sensor (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: temp-livingroom (0x00158d000423e554): WSDCGQ11LM - Aqara Temperature and humidity sensor (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: onoff-living-room-light-1 (0xbc026efffe674311): E160x/E170x/E190x - IKEA TRADFRI control outlet (Router)
+[2026-01-31 17:30:24] info: 	z2m: onoff-living-room-light-2 (0x6c5cb1fffe5fe294): E160x/E170x/E190x - IKEA TRADFRI control outlet (Router)
+[2026-01-31 17:30:24] info: 	z2m: onoff-living-room-light-3 (0xbc026efffe674ad7): E160x/E170x/E190x - IKEA TRADFRI control outlet (Router)
+[2026-01-31 17:30:24] info: 	z2m: onoff-kitchen-window (0x3425b4fffe130900): E160x/E170x/E190x - IKEA TRADFRI control outlet (Router)
+[2026-01-31 17:30:24] info: 	z2m: soil-moisture-sensor-2 (0xa4c138a3ebec6a7d): CS-201Z - COOLO Soil moisture sensor (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: soil-moisture-sensor-3 (0xa4c138d116d7caa6): CS-201Z - COOLO Soil moisture sensor (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: soil-moisture-sensor-1 (0xa4c138ba85756561): CS-201Z - COOLO Soil moisture sensor (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: temp-bedroom (0xa4c1380b02dd31d4): TH02Z - Tuya Temperature and humidity sensor (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: onoff-bedroom (0x14b457fffefc2ef0): E160x/E170x/E190x - IKEA TRADFRI control outlet (Router)
+[2026-01-31 17:30:24] info: 	z2m: onoff-tv-room (0xbc026efffe6753d0): E160x/E170x/E190x - IKEA TRADFRI control outlet (Router)
+[2026-01-31 17:30:24] info: 	z2m: temp-kitchen (0xa4c13851b7514a0c): TH01Z - Tuya Temperature and humidity sensor with clock (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: onoff-garage-ventilation-fan (0x3425b4fffe94e141): E160x/E170x/E190x - IKEA TRADFRI control outlet (Router)
+[2026-01-31 17:30:24] info: 	z2m: fingerbot-garage-heater (0xa4c1389025a19f7a): TS0001_fingerbot - Tuya Zigbee fingerbot plus (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: temp-boiler-room (0x00158d0004089a53): WSDCGQ01LM - Xiaomi Mi temperature and humidity sensor (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: temp-laundry-room (0xa4c138628080cfdf): WSD500A - Tuya Temperature & humidity sensor (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: onoff-laundry-room (0xbc026efffec8d06f): E160x/E170x/E190x - IKEA TRADFRI control outlet (Router)
+[2026-01-31 17:30:24] info: 	z2m: onoff-hobby-room (0x7c31fafffe648ea0): E22x4 - IKEA TRETAKT smart plug (Router)
+[2026-01-31 17:30:24] info: 	z2m: onoff-food-storage (0x3425b4fffed4e4bc): E160x/E170x/E190x - IKEA TRADFRI control outlet (Router)
+[2026-01-31 17:30:24] info: 	z2m: temp-downstair-office (0x00158d00044fc85c): WSDCGQ01LM - Xiaomi Mi temperature and humidity sensor (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: air-quality-garage (0x3c2ef5fffeef7d8a): E2112 - IKEA VINDSTYRKA air quality and humidity sensor (Router)
+[2026-01-31 17:30:24] info: 	z2m: temp-garage (0xa4c1380e632c86c9): WSD500A - Tuya Temperature & humidity sensor (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: climate_attic (0xa4c138971f2538f4): TH02Z - Tuya Temperature and humidity sensor (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: lamp_frontdoor (0x70ac08fffe9215f2): LED2003G10 - IKEA TRADFRI bulb E26/27, white spectrum, globe, opal, 1055/1100/1160 lm (Router)
+[2026-01-31 17:30:24] info: 	z2m: movment_hallway (0x00158d000252d76e): RTCGQ11LM - Aqara Motion sensor (EndDevice)
+[2026-01-31 17:30:24] info: 	z2m: Currently 26 devices are joined.
+[2026-01-31 17:30:24] info: 	z2m: Connecting to MQTT server at mqtt://192.168.1.182:1883
+[2026-01-31 17:30:24] info: 	z2m: Connected to MQTT server
+[2026-01-31 17:30:24] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"online"}'
+[2026-01-31 17:30:24] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:24] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:24] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-living-room-light-1/availability', payload '{"state":"offline"}'
+[2026-01-31 17:30:24] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-living-room-light-2/availability', payload '{"state":"offline"}'
+[2026-01-31 17:30:24] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-living-room-light-3/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:24] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-kitchen-window/availability', payload '{"state":"offline"}'
+[2026-01-31 17:30:24] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/soil-moisture-sensor-2/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:24] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/soil-moisture-sensor-3/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:24] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/soil-moisture-sensor-1/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:24] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-bedroom/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-bedroom/availability', payload '{"state":"offline"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-tv-room/availability', payload '{"state":"offline"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-kitchen/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-garage-ventilation-fan/availability', payload '{"state":"offline"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/fingerbot-garage-heater/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-boiler-room/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-laundry-room/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-laundry-room/availability', payload '{"state":"offline"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-hobby-room/availability', payload '{"state":"offline"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-food-storage/availability', payload '{"state":"offline"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-downstair-office/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/air-quality-garage/availability', payload '{"state":"offline"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-garage/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/climate_attic/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/lamp_frontdoor/availability', payload '{"state":"offline"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/movment_hallway/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-living-room-light/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:25] info: 	z2m: Started frontend on port 8080
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-outside', payload '{"battery":87,"humidity":78.02,"linkquality":60,"temperature":-7.09,"voltage":2500}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-livingroom', payload '{"battery":83,"humidity":32.39,"linkquality":48,"power_outage_count":29260,"pressure":1023.5,"temperature":20.35,"voltage":2975}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-living-room-light-1', payload '{"identify":null,"linkquality":72,"power_on_behavior":"previous","state":"OFF","update":{"installed_version":587765297,"latest_version":587765297,"state":"idle"}}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-living-room-light-2', payload '{"identify":null,"linkquality":48,"power_on_behavior":"previous","state":"OFF","update":{"installed_version":587765297,"latest_version":587765297,"state":"idle"}}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-living-room-light-3', payload '{"identify":null,"linkquality":51,"power_on_behavior":"previous","state":"ON","update":{"installed_version":587765297,"latest_version":587765297,"state":"idle"}}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-kitchen-window', payload '{"identify":null,"linkquality":57,"power_on_behavior":"previous","state":"OFF","update":{"installed_version":587765297,"latest_version":587765297,"state":"idle"}}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/soil-moisture-sensor-2', payload '{"battery":100,"dry":false,"humidity":58,"humidity_calibration":0,"linkquality":51,"soil_calibration":0,"soil_moisture":67,"soil_sampling":30,"soil_warning":20,"temperature":18.9,"temperature_calibration":0,"temperature_sampling":30,"temperature_unit":"celsius"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/soil-moisture-sensor-3', payload '{"battery":100,"dry":null,"humidity":75,"humidity_calibration":null,"linkquality":39,"soil_calibration":0,"soil_moisture":99,"soil_sampling":30,"soil_warning":20,"temperature":18.6,"temperature_calibration":null,"temperature_sampling":30,"temperature_unit":null}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/soil-moisture-sensor-1', payload '{"battery":100,"dry":null,"humidity":78,"humidity_calibration":0,"linkquality":30,"soil_calibration":0,"soil_moisture":94,"soil_sampling":30,"soil_warning":20,"temperature":17.7,"temperature_calibration":0,"temperature_sampling":30,"temperature_unit":null}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-bedroom', payload '{"battery":100,"humidity":28.74,"linkquality":36,"temperature":18.45,"voltage":3000}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-bedroom', payload '{"identify":null,"linkquality":36,"power_on_behavior":"previous","state":"ON","update":{"installed_version":587765297,"latest_version":587765297,"state":"idle"}}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-tv-room', payload '{"identify":null,"linkquality":51,"power_on_behavior":"previous","state":"ON","update":{"installed_version":587765297,"latest_version":587765297,"state":"idle"}}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-kitchen', payload '{"battery":88,"humidity":30,"humidity_alarm":null,"humidity_report_interval":120,"humidity_sensitivity":6,"linkquality":60,"max_humidity":60,"max_temperature":39,"min_humidity":20,"min_temperature":0,"temperature":18.9,"temperature_alarm":"canceled","temperature_report_interval":120,"temperature_sensitivity":0.6,"temperature_unit_convert":"celsius"}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-garage-ventilation-fan', payload '{"identify":null,"linkquality":51,"power_on_behavior":"previous","state":"OFF","update":{"installed_version":587765297,"latest_version":587765297,"state":"idle"}}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/fingerbot-garage-heater', payload '{"battery":100,"delay":3,"linkquality":36,"lower":85,"mode":"click","program":{"0":255,"1":255,"2":255,"3":0},"reverse":"OFF","state":"OFF","touch":"OFF","upper":0}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-boiler-room', payload '{"battery":100,"humidity":23.58,"linkquality":90,"power_outage_count":561,"temperature":23.67,"voltage":3025}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-laundry-room', payload '{"battery":100,"humidity":20.75,"linkquality":33,"temperature":19.91,"voltage":3000}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-laundry-room', payload '{"identify":null,"linkquality":33,"power_on_behavior":"previous","state":"ON","update":{"installed_version":587765297,"latest_version":587765297,"state":"idle"}}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-hobby-room', payload '{"child_lock":null,"identify":null,"led_enable":null,"linkquality":27,"power_on_behavior":"off","state":"OFF","update":{"installed_version":33816613,"latest_version":33816613,"state":"idle"}}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-food-storage', payload '{"identify":null,"linkquality":42,"power_on_behavior":"previous","state":"ON","update":{"installed_version":587765297,"latest_version":587765297,"state":"idle"}}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-downstair-office', payload '{"battery":97,"humidity":28.71,"linkquality":48,"power_outage_count":38518,"temperature":20.71,"voltage":2995}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/air-quality-garage', payload '{"humidity":70,"identify":null,"linkquality":30,"pm25":6,"temperature":6,"update":{"installed_version":16777233,"latest_version":16777233,"state":"idle"},"voc_index":4}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/temp-garage', payload '{"battery":100,"humidity":62.49,"linkquality":54,"temperature":5.73,"voltage":3000}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/climate_attic', payload '{"battery":100,"humidity":53.16,"linkquality":60,"temperature":-0.68,"voltage":3000}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/lamp_frontdoor', payload '{"brightness":170,"color_mode":"color_temp","color_options":null,"color_temp":370,"effect":null,"identify":null,"linkquality":90,"power_on_behavior":null,"state":"OFF","update":{"installed_version":65554,"latest_version":65554,"state":"idle"}}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/movment_hallway', payload '{"battery":100,"device_temperature":21,"illuminance":30,"linkquality":93,"occupancy":true,"power_outage_count":45,"voltage":3055}'
+[2026-01-31 17:30:25] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/onoff-living-room-light', payload '{"state":"ON"}'
+[2026-01-31 17:30:25] info: 	z2m: Zigbee2MQTT started!
+[2026-01-31 17:30:26] warning: 	z2m: Failed to ping 'onoff-living-room-light-1' (attempt 1/1, ZCL command 0xbc026efffe674311/1 genBasic.read(["zclVersion"], {"timeout":10000,"disableResponse":false,"disableRecovery":true,"disableDefaultResponse":true,"direction":0,"reservedBits":0,"writeUndiv":false,"sendPolicy":"immediate"}) failed (Data request failed with error: 'NWK_NO_ROUTE' (0xcd)))
+[2026-01-31 17:30:29] warning: 	z2m: Failed to ping 'onoff-living-room-light-2' (attempt 1/1, ZCL command 0x6c5cb1fffe5fe294/1 genBasic.read(["zclVersion"], {"timeout":10000,"disableResponse":false,"disableRecovery":true,"disableDefaultResponse":true,"direction":0,"reservedBits":0,"writeUndiv":false,"sendPolicy":"immediate"}) failed (Data request failed with error: 'NWK_NO_ROUTE' (0xcd)))
+[2026-01-31 17:30:30] info: 	z2m:mqtt: MQTT publish: topic 'homeassistant/binary_sensor/1221051039810110150109113116116_0x00124b0029dae799/connection_state/config', payload '{"default_entity_id":"binary_sensor.zigbee2mqtt_bridge_connection_state","device":{"hw_version":"ZStack3x0 20210708","identifiers":["zigbee2mqtt_bridge_0x00124b0029dae799"],"manufacturer":"Zigbee2MQTT","model":"Bridge","name":"Zigbee2MQTT Bridge","sw_version":"2.7.2"},"device_class":"connectivity","entity_category":"diagnostic","name":"Connection state","object_id":"zigbee2mqtt_bridge_connection_state","origin":{"name":"Zigbee2MQTT","sw":"2.7.2","url":"https://www.zigbee2mqtt.io"},"payload_off":"offline","payload_on":"online","state_topic":"zigbee2mqtt/bridge/state","unique_id":"bridge_0x00124b0029dae799_connection_state_zigbee2mqtt","value_template":"{{ value_json.state }}"}'
+[2026-01-31 17:30:32] warning: 	z2m: Failed to ping 'onoff-kitchen-window' (attempt 1/1, ZCL command 0x3425b4fffe130900/1 genBasic.read(["zclVersion"], {"timeout":10000,"disableResponse":false,"disableRecovery":true,"disableDefaultResponse":true,"direction":0,"reservedBits":0,"writeUndiv":false,"sendPolicy":"immediate"}) failed (Data request failed with error: 'NWK_NO_ROUTE' (0xcd)))
+[2026-01-31 17:30:35] warning: 	z2m: Failed to ping 'onoff-bedroom' (attempt 1/1, ZCL command 0x14b457fffefc2ef0/1 genBasic.read(["zclVersion"], {"timeout":10000,"disableResponse":false,"disableRecovery":true,"disableDefaultResponse":true,"direction":0,"reservedBits":0,"writeUndiv":false,"sendPolicy":"immediate"}) failed (Data request failed with error: 'NWK_NO_ROUTE' (0xcd)))
+[2026-01-31 17:30:38] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/air-quality-garage/availability', payload '{"state":"online"}'
+[2026-01-31 17:30:38] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/air-quality-garage', payload '{"humidity":70,"identify":null,"linkquality":63,"pm25":6,"temperature":6,"update":{"installed_version":16777233,"latest_version":16777233,"state":"idle"},"voc_index":4}'
+[2026-01-31 17:30:38] warning: 	z2m: Failed to ping 'onoff-tv-room' (attempt 1/1, ZCL command 0xbc026efffe6753d0/1 genBasic.read(["zclVersion"], {"timeout":10000,"disableResponse":false,"disableRecovery":true,"disableDefaultResponse":true,"direction":0,"reservedBits":0,"writeUndiv":false,"sendPolicy":"immediate"}) failed (Data request failed with error: 'NWK_NO_ROUTE' (0xcd)))
+[2026-01-31 17:30:42] warning: 	z2m: Failed to ping 'onoff-garage-ventilation-fan' (attempt 1/1, ZCL command 0x3425b4fffe94e141/1 genBasic.read(["zclVersion"], {"timeout":10000,"disableResponse":false,"disableRecovery":true,"disableDefaultResponse":true,"direction":0,"reservedBits":0,"writeUndiv":false,"sendPolicy":"immediate"}) failed (Data request failed with error: 'NWK_NO_ROUTE' (0xcd)))
+[2026-01-31 17:30:45] warning: 	z2m: Failed to ping 'onoff-laundry-room' (attempt 1/1, ZCL command 0xbc026efffec8d06f/1 genBasic.read(["zclVersion"], {"timeout":10000,"disableResponse":false,"disableRecovery":true,"disableDefaultResponse":true,"direction":0,"reservedBits":0,"writeUndiv":false,"sendPolicy":"immediate"}) failed (Data request failed with error: 'NWK_NO_ROUTE' (0xcd)))
+[2026-01-31 17:30:48] warning: 	z2m: Failed to ping 'onoff-hobby-room' (attempt 1/1, ZCL command 0x7c31fafffe648ea0/1 genBasic.read(["zclVersion"], {"timeout":10000,"disableResponse":false,"disableRecovery":true,"disableDefaultResponse":true,"direction":0,"reservedBits":0,"writeUndiv":false,"sendPolicy":"immediate"}) failed (Data request failed with error: 'NWK_NO_ROUTE' (0xcd)))
+[2026-01-31 17:30:50] warning: 	z2m: Failed to ping 'onoff-food-storage' (attempt 1/1, ZCL command 0x3425b4fffed4e4bc/1 genBasic.read(["zclVersion"], {"timeout":10000,"disableResponse":false,"disableRecovery":true,"disableDefaultResponse":true,"direction":0,"reservedBits":0,"writeUndiv":false,"sendPolicy":"immediate"}) failed (Data request failed with error: 'MAC_CHANNEL_ACCESS_FAILURE' (0xe1)))
+[2026-01-31 17:30:52] warning: 	z2m: Failed to ping 'lamp_frontdoor' (attempt 1/1, ZCL command 0x70ac08fffe9215f2/1 genBasic.read(["zclVersion"], {"timeout":10000,"disableResponse":false,"disableRecovery":true,"disableDefaultResponse":true,"direction":0,"reservedBits":0,"writeUndiv":false,"sendPolicy":"immediate"}) failed (Data request failed with error: 'MAC_CHANNEL_ACCESS_FAILURE' (0xe1)))
+[2026-01-31 17:31:34] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/movment_hallway', payload '{"battery":100,"device_temperature":21,"illuminance":30,"linkquality":63,"occupancy":true,"power_outage_count":45,"voltage":3055}'
+[2026-01-31 17:31:34] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/movment_hallway', payload '{"battery":100,"device_temperature":21,"illuminance":30,"linkquality":60,"occupancy":true,"power_outage_count":45,"voltage":3055}'
+[2026-01-31 17:31:37] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/air-quality-garage', payload '{"humidity":70,"identify":null,"linkquality":63,"pm25":6,"temperature":6,"update":{"installed_version":16777233,"latest_version":16777233,"state":"idle"},"voc_index":13}'
+[2026-01-31 17:32:37] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/air-quality-garage', payload '{"humidity":70,"identify":null,"linkquality":51,"pm25":6,"temperature":6,"update":{"installed_version":16777233,"latest_version":16777233,"state":"idle"},"voc_index":13}'
+[2026-01-31 17:32:47] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/movment_hallway', payload '{"battery":100,"device_temperature":21,"illuminance":30,"linkquality":57,"occupancy":true,"power_outage_count":45,"voltage":3055}'
+[2026-01-31 17:32:47] info: 	z2m:mqtt: MQTT publish: topic 'zigbee2mqtt/movment_hallway', payload '{"battery":100,"device_temperature":21,"illuminance":8,"linkquality":54,"occupancy":true,"power_outage_count":45,"voltage":3055}'
